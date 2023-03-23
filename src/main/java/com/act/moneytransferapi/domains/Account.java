@@ -43,8 +43,6 @@ public class Account {
 
     @Column(nullable = false)
     @NotNull(message = "Pin must be set")
-    @Min(4)
-    @Max(6)
     private Integer pin;
 
     @Column(nullable = false)

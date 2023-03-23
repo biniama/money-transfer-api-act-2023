@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/accounts
+Content-Type: application/json
+
+{
+    "firstName": "Abebe2",
+    "middleName": "Beso2",
+    "lastName": "Bela2",
+    "dateOfBirth": "1992-01-01",
+    "phoneNumber": "+251911020202",
+    "email": "abebe2@beso2.bela2",
+    "pin": 654321
+}
