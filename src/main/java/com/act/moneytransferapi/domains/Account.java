@@ -11,7 +11,7 @@ import java.time.LocalDate;
 public class Account {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @Size(max = 15, min = 3)

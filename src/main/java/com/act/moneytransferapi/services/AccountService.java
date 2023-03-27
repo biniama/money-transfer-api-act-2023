@@ -32,7 +32,10 @@ public class AccountService {
         return accountRepository.save(account);
     }
 
-    //String firstName, String middleName, String lastName, LocalDate dateOfBirth,
-    //                              String phoneNumber, String email, Integer pin
+    public Iterable<Account> getAllAccounts() {
+        //Business Logic comes here
+        // E.g. removing pin from being displayed or returned, merging names, filtering ...
+        return accountRepository.findAll();
+    }
 
 }
