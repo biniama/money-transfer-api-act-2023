@@ -8,7 +8,6 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
 public class AgeCalculatorTest {
 
     //void should_return_true_if_age_is_greater_than_16()
