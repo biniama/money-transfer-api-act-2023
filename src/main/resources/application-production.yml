@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://money-transfer-api-act23-db.flycast:5432/money_transfer_api_act23?sslmode=disable
+    username: money_transfer_api_act23
+    password: HKTYl2YH2LuXvz5
+  sql:
+    init:
+      mode: always
+  jpa:
+    # Hibernate is an ORM (Object Relational Mapper)
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
