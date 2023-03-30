@@ -50,4 +50,8 @@ public class TransferService {
 
         return transferRepository.save(transfer);
     }
+
+    public Iterable<Transfer> getAllTransfers() {
+        return transferRepository.findAll();
+    }
 }
