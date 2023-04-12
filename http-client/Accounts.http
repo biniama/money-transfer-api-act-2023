@@ -1,15 +1,16 @@
-POST http://localhost:8080/api/accounts
+POST https://money-transfer-api-act23.fly.dev/api/accounts
 Content-Type: application/json
 
 {
     "firstName": "Abebe",
     "middleName": "Beso",
     "lastName": "Bela",
-    "dateOfBirth": "1991-01-01",
-    "phoneNumber": "+251911010101",
+    "dateOfBirth": "1992-02-01",
+    "phoneNumber": "+2519210101",
     "email": "abebe@beso.bela",
-    "pin": 11111
+    "pin": "11111"
 }
+
 
 ###
 GET http://localhost:8080/api/accounts
